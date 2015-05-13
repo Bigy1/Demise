@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 300c16a992a070c4eba0da91bea15897
+timeCreated: 1431548334
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: part 000
+    100002: part 001
+    100004: part 002
+    100006: part 003
+    100008: part 011
+    100010: part 012
+    100012: part 013
+    100014: part 014
+    100016: part 015
+    100018: part 021
+    100020: part 022
+    100022: part 023
+    100024: part 024
+    100026: part 025
+    100028: part 026
+    100030: part 027
+    100032: part 028
+    100034: part 031
+    100036: part 033
+    100038: //RootNode
+    400000: part 000
+    400002: part 001
+    400004: part 002
+    400006: part 003
+    400008: part 011
+    400010: part 012
+    400012: part 013
+    400014: part 014
+    400016: part 015
+    400018: part 021
+    400020: part 022
+    400022: part 023
+    400024: part 024
+    400026: part 025
+    400028: part 026
+    400030: part 027
+    400032: part 028
+    400034: part 031
+    400036: part 033
+    400038: //RootNode
+    2300000: part 000
+    2300002: part 001
+    2300004: part 002
+    2300006: part 003
+    2300008: part 011
+    2300010: part 012
+    2300012: part 013
+    2300014: part 014
+    2300016: part 015
+    2300018: part 021
+    2300020: part 022
+    2300022: part 023
+    2300024: part 024
+    2300026: part 025
+    2300028: part 026
+    2300030: part 027
+    2300032: part 028
+    2300034: part 031
+    2300036: part 033
+    3300000: part 000
+    3300002: part 001
+    3300004: part 002
+    3300006: part 003
+    3300008: part 011
+    3300010: part 012
+    3300012: part 013
+    3300014: part 014
+    3300016: part 015
+    3300018: part 021
+    3300020: part 022
+    3300022: part 023
+    3300024: part 024
+    3300026: part 025
+    3300028: part 026
+    3300030: part 027
+    3300032: part 028
+    3300034: part 031
+    3300036: part 033
+    4300000: part 025
+    4300002: part 003
+    4300004: part 014
+    4300006: part 012
+    4300008: part 028
+    4300010: part 026
+    4300012: part 000
+    4300014: part 031
+    4300016: part 001
+    4300018: part 021
+    4300020: part 033
+    4300022: part 015
+    4300024: part 023
+    4300026: part 022
+    4300028: part 011
+    4300030: part 013
+    4300032: part 002
+    4300034: part 024
+    4300036: part 027
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 30
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
