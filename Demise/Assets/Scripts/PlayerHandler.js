@@ -110,8 +110,7 @@ function FixedUpdate() {
 		else
 			ViewPosition = ThirdPersonCameraAnchor.position + transform.rotation * Quaternion.AngleAxis(RotationOffset.y, Vector3.up) * Vector3(0, 0, ViewDistance);
 		LookHeading = (ViewPosition - ThirdPersonCameraAnchor.position).normalized;
-	    if(Physics.Raycast(ThirdPersonCameraAnchor.position, LookHeading, ViewHit, ViewDistance + 0.5, 9
-	    )) {
+	    if(Physics.Raycast(ThirdPersonCameraAnchor.position, LookHeading, ViewHit, ViewDistance + 0.5, 9)) {
 	    	ViewHitBoolean = true;
 	    	View.position = ViewHit.point + ViewHit.normal / 2;
 	    } else {

@@ -4,17 +4,13 @@
 
 var WheelMesh : Transform;
 var Powered : boolean = true;
-var Steerable : boolean = true;
-var TurnOffset : float = 0;
 var Brakeable : boolean = true;
-
 class brakingStiffnessMultipliers extends System.Object {
 	var Forward : float = .75;
 	var Sideways : float = .25;
 }
-
 var BrakingStiffnessMultipliers = brakingStiffnessMultipliers();
-
+var Steerable : boolean = true;
 enum Locations { 
 	Front  =  2, 
 	Center =  1, 
@@ -33,12 +29,12 @@ function Start() {
 }
 
 function WheelUpdate(MotorTorque : float, BrakeTorque : float, TurnAngle : float) {
-	GetComponent.<WheelCollider>().forwardFriction.stiffness = (BrakeTorque != 0 ? ForwardStiffness * BrakingStiffnessMultipliers.Forward : ForwardStiffness);
-	GetComponent.<WheelCollider>().sidewaysFriction.stiffness = (BrakeTorque != 0 ? SidewaysStiffness * BrakingStiffnessMultipliers.Sideways : SidewaysStiffness);
+	GetComponent.<WheelCollider>().brakeTorque = (Brakeable ? BrakeTorque : 0);
 	GetComponent.<WheelCollider>().motorTorque = (Powered ? MotorTorque : 0);
-	GetComponent.<WheelCollider>().brakeTorque = (Brakeable ? BrakeTorque : 0);;
+	GetComponent.<WheelCollider>().forwardFriction.stiffness = (BrakeTorque == 0 || !Brakeable ? ForwardStiffness : ForwardStiffness * BrakingStiffnessMultipliers.Forward);
+	GetComponent.<WheelCollider>().sidewaysFriction.stiffness = (BrakeTorque == 0  || !Brakeable ? SidewaysStiffness : SidewaysStiffness * BrakingStiffnessMultipliers.Sideways);
 	WheelMesh.Rotate(GetComponent.<WheelCollider>().rpm / 60 * 360 * Time.deltaTime, 0, 0);
-	GetComponent.<WheelCollider>().steerAngle = (Steerable ? (TurnAngle + TurnOffset) * TurnMultiplier : 0);
+	GetComponent.<WheelCollider>().steerAngle = (Steerable ? TurnAngle * TurnMultiplier : 0);
 	WheelMesh.localEulerAngles.y = GetComponent.<WheelCollider>().steerAngle - WheelMesh.localEulerAngles.z;
 	var WheelColliderCenter = GetComponent.<WheelCollider>().transform.TransformPoint(GetComponent.<WheelCollider>().center);
 	var hit : RaycastHit;
