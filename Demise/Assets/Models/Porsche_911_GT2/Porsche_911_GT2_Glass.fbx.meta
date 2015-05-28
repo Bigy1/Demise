@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 53e38c17bf341424b9439f09b87744d6
+timeCreated: 1432576630
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Glass_Blinker_L
+    100002: Glass_Blinker_R
+    100004: Glass_HeadLight_L.
+    100006: Glass_HeadLight_R
+    100008: Glass_WindShield_F
+    100010: Glass_WindShield_LF
+    100012: Glass_WindShield_LR
+    100014: Glass_WindShield_R
+    100016: Glass_WindShield_RF
+    100018: Glass_WindShield_RR
+    100020: //RootNode
+    100022: Glass_WindShield_LF.001
+    100024: Glass_WindShield_LR.001
+    400000: Glass_Blinker_L
+    400002: Glass_Blinker_R
+    400004: Glass_HeadLight_L.
+    400006: Glass_HeadLight_R
+    400008: Glass_WindShield_F
+    400010: Glass_WindShield_LF
+    400012: Glass_WindShield_LR
+    400014: Glass_WindShield_R
+    400016: Glass_WindShield_RF
+    400018: Glass_WindShield_RR
+    400020: //RootNode
+    400022: Glass_WindShield_LF.001
+    400024: Glass_WindShield_LR.001
+    2300000: Glass_Blinker_L
+    2300002: Glass_Blinker_R
+    2300004: Glass_HeadLight_L.
+    2300006: Glass_HeadLight_R
+    2300008: Glass_WindShield_F
+    2300010: Glass_WindShield_LF
+    2300012: Glass_WindShield_LR
+    2300014: Glass_WindShield_R
+    2300016: Glass_WindShield_RF
+    2300018: Glass_WindShield_RR
+    2300020: Glass_WindShield_LF.001
+    2300022: Glass_WindShield_LR.001
+    3300000: Glass_Blinker_L
+    3300002: Glass_Blinker_R
+    3300004: Glass_HeadLight_L.
+    3300006: Glass_HeadLight_R
+    3300008: Glass_WindShield_F
+    3300010: Glass_WindShield_LF
+    3300012: Glass_WindShield_LR
+    3300014: Glass_WindShield_R
+    3300016: Glass_WindShield_RF
+    3300018: Glass_WindShield_RR
+    3300020: Glass_WindShield_LF.001
+    3300022: Glass_WindShield_LR.001
+    4300000: Glass_WindShield_RF
+    4300002: Glass_WindShield_LF
+    4300004: Glass_WindShield_R
+    4300006: Glass_HeadLight_L.
+    4300008: Glass_HeadLight_R
+    4300010: Glass_Blinker_R
+    4300012: Glass_Blinker_L
+    4300014: Glass_WindShield_F
+    4300016: Glass_WindShield_RR
+    4300018: Glass_WindShield_LR
+    4300020: Glass_WindShield_LR.001
+    4300022: Glass_WindShield_LF.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

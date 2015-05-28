@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: f12a531a3fe06e642ac2ef00f0ed9f94
+timeCreated: 1432576631
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BrakePad_LF
+    100002: BrakePad_LR
+    100004: BrakePad_RF
+    100006: BrakePad_RR
+    100008: Bumper_F
+    100010: Bumper_R
+    100012: Door_L
+    100014: Door_R
+    100016: Frame
+    100018: Hood
+    100020: Interior
+    100022: Interior_Wheel
+    100024: //RootNode
+    100026: RockerPanel_L
+    100028: RockerPanel_R
+    100030: Side_L
+    100032: Side_R
+    100034: Spoiler
+    100036: Wheel_LF
+    100038: Wheel_LR
+    100040: Wheel_RF
+    100042: Wheel_RR
+    400000: BrakePad_LF
+    400002: BrakePad_LR
+    400004: BrakePad_RF
+    400006: BrakePad_RR
+    400008: Bumper_F
+    400010: Bumper_R
+    400012: Door_L
+    400014: Door_R
+    400016: Frame
+    400018: Hood
+    400020: Interior
+    400022: Interior_Wheel
+    400024: //RootNode
+    400026: RockerPanel_L
+    400028: RockerPanel_R
+    400030: Side_L
+    400032: Side_R
+    400034: Spoiler
+    400036: Wheel_LF
+    400038: Wheel_LR
+    400040: Wheel_RF
+    400042: Wheel_RR
+    2300000: BrakePad_LF
+    2300002: BrakePad_LR
+    2300004: BrakePad_RF
+    2300006: BrakePad_RR
+    2300008: Bumper_F
+    2300010: Bumper_R
+    2300012: Door_L
+    2300014: Door_R
+    2300016: Frame
+    2300018: Hood
+    2300020: Interior
+    2300022: Interior_Wheel
+    2300024: RockerPanel_L
+    2300026: RockerPanel_R
+    2300028: Side_L
+    2300030: Side_R
+    2300032: Spoiler
+    2300034: Wheel_LF
+    2300036: Wheel_LR
+    2300038: Wheel_RF
+    2300040: Wheel_RR
+    3300000: BrakePad_LF
+    3300002: BrakePad_LR
+    3300004: BrakePad_RF
+    3300006: BrakePad_RR
+    3300008: Bumper_F
+    3300010: Bumper_R
+    3300012: Door_L
+    3300014: Door_R
+    3300016: Frame
+    3300018: Hood
+    3300020: Interior
+    3300022: Interior_Wheel
+    3300024: RockerPanel_L
+    3300026: RockerPanel_R
+    3300028: Side_L
+    3300030: Side_R
+    3300032: Spoiler
+    3300034: Wheel_LF
+    3300036: Wheel_LR
+    3300038: Wheel_RF
+    3300040: Wheel_RR
+    4300000: Wheel_RF
+    4300002: BrakePad_RF
+    4300004: Spoiler
+    4300006: Bumper_F
+    4300008: BrakePad_LR
+    4300010: BrakePad_RR
+    4300012: Hood
+    4300014: Door_R
+    4300016: BrakePad_LF
+    4300018: Frame
+    4300020: RockerPanel_L
+    4300022: Wheel_LF
+    4300024: Wheel_RR
+    4300026: Door_L
+    4300028: Side_L
+    4300030: Wheel_LR
+    4300032: Bumper_R
+    4300034: Side_R
+    4300036: Interior
+    4300038: Interior_Wheel
+    4300040: RockerPanel_R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
